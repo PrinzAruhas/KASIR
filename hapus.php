@@ -1,6 +1,6 @@
 <?php
 session_start(); // Memulai sesi PHP untuk menggunakan variabel session
-
+//Alkhafi sudah dicek pMko
 include "koneksi.php"; // Menyertakan file koneksi.php yang berisi kode untuk menghubungkan ke database
 // Mengecek apakah parameter 'id' ada di URL
 if (isset($_GET['id'])) {
